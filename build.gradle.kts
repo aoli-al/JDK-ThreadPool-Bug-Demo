@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("org.pastalab.fray.gradle") version "0.5.1-SNAPSHOT"
+    id("org.pastalab.fray.gradle") version "0.5.1"
 }
 
 group = "org.example"
