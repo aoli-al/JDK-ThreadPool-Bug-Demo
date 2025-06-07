@@ -40,7 +40,6 @@ public class ScheduledThreadPoolExecutorTest {
     }
 
     @ConcurrencyTest(
-//            scheduler = ReplayScheduler.class,
             replay = "/home/aoli/repos/JDK-ThreadPool-Bug-Demo/build/fray/fray-report/ScheduledThreadPoolExecutorTest/testWithFray/recording"
     )
     public void testWithReplay() {
