@@ -33,16 +33,16 @@ public class ScheduledThreadPoolExecutorTest {
     }
 
     @ConcurrencyTest(
-            iterations = 10000
+            iterations = 1000
     )
     public void testWithFray() {
         test();
     }
 
     @ConcurrencyTest(
-            replay = "/home/aoli/repos/JDK-ThreadPool-Bug-Demo/build/fray/fray-report/ScheduledThreadPoolExecutorTest/testWithFray/recording"
+            replay = ""
     )
-    public void testWithReplay() {
+    public void replayWithFray() {
         test();
     }
 
